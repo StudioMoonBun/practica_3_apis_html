@@ -34,7 +34,7 @@ ConsolaBtn.style.visibility = 'hidden';
 
 videoPlayer.addEventListener('loadeddata', () => {
   ConsolaBtn.style.visibility = 'visible';
-  alert('Cargando el vídeo...');
+  alert('Cargando el vídeo, espere unos minutos...');
 });
 
 // BOTON PLAY
