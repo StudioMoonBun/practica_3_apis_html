@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Ana Belén Tierraseca Gómez">
+    <meta name="description" content="Practica Api's HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>Samsung Desarrolladoras 2022 | Práctica Api's HTML</title>
+    <!--icono-->
+    <link rel="icon" type="image/x-icon" href="images/media_play_icon.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="body-container">
+    <section class="container">
+        <!--Título del fichero-->
+        <label for="video">Carga fichero de video:</label>
+        <!--Carga de ficheros-->
+        <input type="file" name="video" accept="video" name filesize type>
+        </br></br>
+        <!--Reprductor de video-->
+        <video autoplay loop poster="images/girl_neon.jpg" width="800px" class="MiVideo" ID="Video"></video>
+        </br></br>
+        <!--Botones menú-->
+        <div class="botones">
+            <button type="button" id="play"><img src="images/play_icon.png" width="30px"></button>
+            <button type="button" id="pause"><img src="images/pause_icon.png"  width="30px"></button>
+            <button type="button" id="stop"><img src="images/stop_icon.png"  width="30px"></button>
+            <button type="button" id="downaudio"><img src="images/volume_down.png"  width="30px"></button>
+            <button type="button" id="upaudio"><img src="images/volume_up.png"  width="30px"></button>
+        </div>
+    </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: ghostwhite;
+    background-color: #292929;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.botones button {
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    background-color: ghostwhite;
+    border: none;
+    box-shadow: 1px 1px 1px #250902;
+}
+
+.botones button:hover{
+    background-color: #FF008E;
+    box-shadow: 2px 2px 10px #FF008E;
+    border: 1px solid #ff3ba7;
+    transition: all 300ms;
+}
+
+.botones button:focus {
+    background-color: #FF008E;
+    transform: scale(0.95);
+    box-shadow: 3px 3px 5px #1a1a1a;
+    box-shadow: -2px -2px 5px #FF008E;
+}
